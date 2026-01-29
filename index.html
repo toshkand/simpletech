@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My New Website</title>
+    <style>
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+            line-height: 1.6;
+            background: #f9f9f9;
+            color: #333;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+        h1 {
+            color: #0969da;
+        }
+        .status {
+            background: #e6f7ff;
+            padding: 1rem;
+            border-radius: 8px;
+            border-left: 4px solid #0969da;
+            margin: 2rem 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>🎉 Success!</h1>
+        <p>Your GitHub Pages site is now being created.</p>
+    </header>
+    
+    <div class="status">
+        <h3>Next Steps:</h3>
+        <ol>
+            <li>Commit this file</li>
+            <li>Enable GitHub Pages in Settings</li>
+            <li>Connect your custom domain</li>
+        </ol>
+    </div>
+    
+    <h2>Welcome to My Site</h2>
+    <p>This is hosted for free on GitHub Pages. More content coming soon!</p>
+    
+    <footer>
+        <p><small>Last updated: <span id="date"></span></small></p>
+    </footer>
+    
+    <script>
+        document.getElementById('date').textContent = new Date().toLocaleDateString();
+    </script>
+</body>
+</html>
